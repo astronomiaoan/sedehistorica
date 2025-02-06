@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&display=swap');
+sec5-portfolio-headf@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&display=swap');
 
 /* NAVBAR */
 
@@ -11,7 +11,7 @@
 }
 
 #nav-logo {
-    font-size: 24px;
+    font-size: 40px;
     color: #222054;
     text-transform: uppercase;
     font-weight: bolder;
@@ -22,19 +22,19 @@
     padding: 8px 20px !important;
 }
 
-.nav-custom-link {
+.-custom-link {
     font-weight: bold;
-    color: #000000 !important;
+    color: #FFFFFF !important;
     text-transform: uppercase;
 }
 
-.nav-custom-link:hover {
+.nav-custom-link: {
     color: #b89712 !important;
-    background-color: #222054;
+    background-color: #032d4f;
 }
 
 .color-white {
-    color: #FFFFFF !important;
+    color: #92a346 !important;
 }
 
 .nav-btn-icon {
@@ -47,7 +47,7 @@
     }
 
     #nav-logo {
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .sticky {
@@ -66,7 +66,11 @@
 /* SECTION NO 1 */
 
 .section-1 {
-    background-color: #222057;
+/* background-color: #4e9eb9;  */
+    background-color: #000000
+;
+/*   background-color: #ffbf00; amarillo
+/*    background-color: #222057;*/ 
     height: 450px;
     padding: 0px;
 }
@@ -78,10 +82,10 @@
 .image-frame {
     width: 480px;
     height: 480px;
-    background-image: url(../images/imagen-logo-espectra.png);
+    background-image: url(../images/logo-encuentro.png);
     background-position: center;
     background-size: cover;
-    border: 8px solid #FFFFFF;
+    border: 0px solid #FFFFFF;
     border-radius: 50%;
     position: absolute;
     top: 90px;
@@ -258,7 +262,7 @@
 
 .sec3-img-left,
 .sec3-img-right {
-    width: 450px;
+    width: 650px;
 }
 
 .section-3-button-right {
@@ -357,7 +361,7 @@
 }
 
 .section-4-left {
-    font-size: 110px;
+    font-size: 90px;
     line-height: 1.1;
     color: #000000;
 }
@@ -380,7 +384,7 @@
 }
 
 .sec4-text {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 @media (max-width: 991px) {
@@ -559,7 +563,7 @@
 }
 
 .sec5-portfolio-head {
-    font-size: 24px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -620,7 +624,7 @@
     }
 
     .sec5-portfolio-head {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .work-gallery-row {
@@ -802,7 +806,7 @@
 }
 
 .section-6-para {
-    font-size: 16px;
+    font-size: 19px;
     line-height: 1.8;
     margin-top: 30px;
 }
@@ -899,7 +903,7 @@
     }
 
     .section-6-para {
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .section-6-button {
@@ -979,7 +983,7 @@
 
 .contact-image {
     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
-        url(../images/Contact-image-2.jpg);
+        url(../images/Contact-image-1.png);
     background-position: center;
     background-size: cover;
 }
