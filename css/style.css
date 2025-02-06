@@ -58,7 +58,7 @@ sec5-portfolio-headf@import url('https://fonts.googleapis.com/css2?family=Roboto
 /* MAIN */
 
 .main {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', sans-serif; /* ANTES font-family: 'Roboto Slab', serif;*/
     background-color: #FFFFFF;
     font-size: 16px;
 }
