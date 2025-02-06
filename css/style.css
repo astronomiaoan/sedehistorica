@@ -24,12 +24,12 @@ sec5-portfolio-headf@import url('https://fonts.googleapis.com/css2?family=Roboto
 
 .-custom-link {
     font-weight: bold;
-    color: #000000 !important;
+    color: #000000 !important;  /*  antes FFFFFF */
     text-transform: uppercase;
 }
 
 .nav-custom-link: {
-    color: #b89712 !important;
+    color: #000000 !important;  /*  antes b89712 */
     background-color: #032d4f;
 }
 
